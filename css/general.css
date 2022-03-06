@@ -1,0 +1,32 @@
+:root {
+	--main-bg-color: #222831;
+	--sec-bg-color: #393E46;
+	--main-color: #222831
+	--sec-color: #393E46;
+	--thrd-color: #393E46;
+	--frth-color: #EEEEEE;
+}
+  
+/*html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }*/
+  
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+  
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+/* responsive */
+
+@media only screen and (min-width: 768px) {
+	html {
+		font-size: 70%;
+	}
+}
+
+  

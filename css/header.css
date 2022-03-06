@@ -1,0 +1,18 @@
+.header {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /*z-index: 150;*/
+  }
+
+.header__box{
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1em;
+    position: fixed;
+    width: 80%;
+}

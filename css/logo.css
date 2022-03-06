@@ -1,0 +1,16 @@
+.logo {
+    display: flex;
+    align-items: center;
+  }
+
+.logo__image {
+    width: 2rem;
+}
+
+.logo__text {
+    display: inline-block;
+    margin-left: 0.5em;
+    font-family: 'Kaushan Script', cursive;
+    color: var(--sec-color);
+    font-size: 1.4rem;
+}
