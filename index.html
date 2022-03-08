@@ -11,36 +11,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
 
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/logo.css">
     <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/hero.css">
 </head>
 <body>
     <header class="header">
-        <div class="header__box">
-            <div class="logo">
-                <img src="assets/images/logo.png" alt="logo del desarrolador" class="logo__image" />
-                <h4 class="logo__text">Juan José Quiroga Z</h4>
-            </div>
-                <nav class="main-nav">
-                <i class="fa-solid fa-xmark mobile-btn-close"></i>
-                <ul class="main-nav__list">
-                <li class="main-nav__item"><a class="main-nav__link main-nav__link-active" href="#hero-main">Inicio</a></li>
-                <li class="main-nav__item"><a class="main-nav__link" href="#about-main">Sobre mi</a></li>
-                <li class="main-nav__item"><a class="main-nav__link"  href="#skills">Skills</a></li>
-                <li class="main-nav__item"><a class="main-nav__link"  href="#formacion">Formacion</a></li>
-                <li class="main-nav__item"><a class="main-nav__link"  href="#proyectos">Proyectos</a></li>
-                <li class="main-nav__item"><a class="main-nav__link"  href="mailto:jjqz29@gmail.com">jjqz29@gmial.com</a></li>
-                </ul>
-            </nav>
-            <span class="mobile-btn-open material-icons-outlined">menu</span>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="logo del desarrolador" class="logo__image" />
+            <h4 class="logo__text">Juan José Quiroga Z</h4>
         </div>
+            <nav class="main-nav">
+            <i class="fa-solid fa-xmark mobile-btn-close"></i>
+            <ul class="main-nav__list">
+            <li class="main-nav__item"><a class="main-nav__link main-nav__link-active" href="#hero-main">Inicio</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#about-main">Sobre mi</a></li>
+            <li class="main-nav__item"><a class="main-nav__link"  href="#skills">Skills</a></li>
+            <li class="main-nav__item"><a class="main-nav__link"  href="#formacion">Formacion</a></li>
+            <li class="main-nav__item"><a class="main-nav__link"  href="#proyectos">Proyectos</a></li>
+            <li class="main-nav__item"><a class="main-nav__link"  href="mailto:jjqz29@gmail.com">jjqz29@gmial.com</a></li>
+            </ul>
+        </nav>
+        <span class="mobile-btn-open material-icons-outlined">menu</span>
     </header>
 
-    <main>
-        <section>Sección acerca de mí</section>
+    <main class="main">
+        <section class="hero">
+            <div class="hero-card">
+                <aside class="hero-card__aside">
+                    <figure class="hero-card__figure">
+                        <img src="assets/images/profile.jpg" alt="Foto de Perfil" class="hero-card__image">
+                    </figure>
+                </aside>
+                <header class="hero-card__header">
+                    <h2 class="hero-card__title">Hola, mi nombre es <spam class="hero-card__name">Juan José Quiroga Zingaretti</spam> y construyo paginas web</h2>
+                </header>
+                <div class="hero-card__body">
+                    <p class="hero-card__copy">
+                        Actualmente participo de los programas "Oracle ONE education" en Alura Latam donde estudio para convertirme en Frontend Developer.
+                    </p>
+                </div>
+                <footer class="hero-card__footer">
+                    <div class="hero-card__actions">
+                            <a href="https://www.linkedin.com/in/juan-jos%C3%A9-quiroga-z-0045a6210/" target="blank" class="hero-card__sociales">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.instagram.com/juan.j.quiroga/?hl=es-la" target="blank" class="hero-card__sociales">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/jjqz29" target="blank" class="hero-card__sociales">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://gitlab.com/jquiroga" target="blank" class="hero-card__sociales">
+                                <i class="fab fa-gitlab"></i>
+                            </a>
+                    </div>
+                </footer>
+            </div>
+        </section>
         <section>Sección de pasatiempos y habilidades blandas</section>
         <section>Sección Formaciones y Cursos</section>
         <section>Sección de experiencia en programación</section>

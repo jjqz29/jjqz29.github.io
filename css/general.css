@@ -1,24 +1,29 @@
 :root {
 	--main-bg-color: #222831;
 	--sec-bg-color: #393E46;
-	--main-color: #222831
+	--main-color: #222831;
 	--sec-color: #393E46;
 	--thrd-color: #393E46;
 	--frth-color: #EEEEEE;
 }
   
-/*html {
+html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-  }*/
+}
   
 * {
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 	text-decoration: none;
 }
   
 body {
 	font-family: "Poppins", sans-serif;
+	display: flex; 
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
 }
 
 /* responsive */
@@ -28,5 +33,3 @@ body {
 		font-size: 70%;
 	}
 }
-
-  

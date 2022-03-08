@@ -1,0 +1,105 @@
+.hero {
+    /*align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    width: 100%;*/
+    /*z-index: 150;*/
+
+    /*position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-color: var(--sec-bg-color);
+    z-index: 50;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;*/
+  }
+
+/*.hero__box{
+    /*position: absolute;*/
+    /*top: 10%;*/
+  /*  margin: 0 auto;
+}*/
+
+/* responsive */
+/*@media only screen and (min-width: 769px) {
+    .hero__box {
+        /*top: 0;*/
+   /*     width: 70%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}*/
+
+@media only screen and (min-width: 768px) {
+    :root {
+        --profile-image: 30rem;
+        --hero-car-height: 40rem;
+    }
+
+    .hero {
+        align-items: center;
+        /*background-color: var(--sec-bg-color);*/
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 1em;
+        /*position: relative;*/
+        width: 100%;
+        height: var(--hero-car-height);
+        z-index: 150;
+    }
+
+    .hero-card__aside {
+        position: absolute;
+        right: 1vw;
+        top: calc(var(--hero-car-height) * 0.5 - var(--profile-image) * 0.5)
+    }
+
+    .hero-card__image {
+        width: var(--profile-image);
+        height: var(--profile-image);
+        border-radius: 100%;
+    }
+
+    .hero-card__header, .hero-card__body, .hero-card__footer{
+        margin-right: 10px;
+        width: calc(100% - var(--profile-image) - 1vw);
+    }
+
+    .hero-card__title {
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+
+    .hero-card__name{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 3rem;
+    }
+
+    .hero-card__copy {
+        font-size: 1.3rem;
+        margin-top: 30px;
+        line-height: 25px;
+    }
+
+    .hero-card__actions {
+        margin-top: 15px;
+        text-align: right;
+    }
+
+    .hero-card__sociales {
+        /*text-decoration: none;
+        font-size: 2rem;*/
+        color: var(--sec-color);
+        text-transform: uppercase;
+        font-size: 2rem;
+        padding: 0.75em 1em;
+        display: inline-block;
+    }
+
+    .hero-card__sociales:hover {
+        text-decoration: none;
+    }
+}
